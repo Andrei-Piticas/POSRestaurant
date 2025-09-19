@@ -1,4 +1,6 @@
 POS Demo: README
+
+
 This project is a point-of-sale (POS) demo application built with Flutter. It's designed to manage restaurant or bar orders, including tables, takeaway, and product inventory. It features a simple, intuitive interface for managing orders, sending kitchen receipts, and generating final customer receipts. The app uses shared_preferences for local data persistence and google_fonts for custom typography.
 
 🚀 Features

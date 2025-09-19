@@ -1,16 +1,15 @@
-# pizzificiopos
+POS Demo: README
+This project is a point-of-sale (POS) demo application built with Flutter. It's designed to manage restaurant or bar orders, including tables, takeaway, and product inventory. It features a simple, intuitive interface for managing orders, sending kitchen receipts, and generating final customer receipts. The app uses shared_preferences for local data persistence and google_fonts for custom typography.
 
-A new Flutter project.
+🚀 Features
+Order Management: Create and manage orders for tables or for takeaway.
 
-## Getting Started
+Menu & Inventory: Add, update, and categorize products and modifiers (e.g., extra toppings, special requests).
 
-This project is a starting point for a Flutter application.
+Real-time Order Status: Track items as "pending" or "sent" to the kitchen.
 
-A few resources to get you started if this is your first Flutter project:
+Receipts: Generate kitchen-specific and final customer receipts.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Data Persistence: All data (tables, products, modifiers) is saved locally using shared_preferences.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Theme Toggle: Switch between light and dark modes.

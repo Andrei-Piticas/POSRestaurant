@@ -1,0 +1,62 @@
+name: flutter_pos_system
+description: Sistema POS per ristorante con Flutter
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ✅ STATE MANAGEMENT
+  provider: ^6.1.1
+
+  # ✅ PERSISTENZA DATI
+  shared_preferences: ^2.2.2
+
+  # ✅ BLUETOOTH E STAMPANTI
+  flutter_bluetooth_printer: ^2.7.0
+  permission_handler: ^11.1.0
+
+  # ✅ UTILITY E HELPERS
+  uuid: ^4.2.1
+
+  # ✅ UI E FONTS (dal codice originale)
+  google_fonts: ^6.1.0
+
+  # ✅ FILE OPERATIONS (dal codice originale)
+  file_saver: ^0.2.9
+
+  # ✅ ICONE MATERIAL
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # ✅ LINTING E CODE QUALITY
+  flutter_lints: ^3.0.1
+
+  # ✅ TESTING (opzionale)
+  mockito: ^5.4.4
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+
+  # ✅ ASSETS (se hai immagini, icone custom, ecc.)
+  # assets:
+  #   - images/
+  #   - icons/
+
+  # ✅ FONTS CUSTOM (opzionale)
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic

@@ -43,7 +43,7 @@ Il progetto è costruito su uno stack moderno e orientato al mobile:
 1.  **Clonazione e dipendenze:**
 
     ```bash
-    git clone [URL_DEL_TUO_REPO]
+    git clone https://github.com/Andrei-Piticas/POSRestaurant
     cd pos_demo
     flutter pub get
     ```
